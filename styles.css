@@ -4,8 +4,13 @@ body {
   background: rgb(91,206,250);
   background: linear-gradient(-45deg, rgba(91,206,250,1) 0%, rgba(245,169,184,1) 25%, rgba(245,169,184,0.22452731092436973) 50%, rgba(245,169,184,1) 75%, rgba(91,206,250,1) 100%);
   color: white;
-  text-shadow: 0.1rem .1rem .2rem rgba(0, 0, 0, 0.9);
+  text-shadow: 0.05rem .05rem .15rem rgba(0, 0, 0, 0.8);
   min-height: 100vh;
+  font-family: 'Fira Sans', sans-serif;
+}
+h1 {
+    font-weight: 700;
+    font-size: 250%;
 }
 a {
     color: white;
