@@ -78,7 +78,8 @@
             <footer class="border-top">
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" data-toggle="modal" data-target="#imprint">Impressum</a>
+                        <a class="nav-link active" href="#"
+                        onclick="$('#imprint .modal-body').load('medieninfo.txt'); $('#imprint').modal('show');" >Impressum</a>
                     </li>
                 </ul>
             </footer>
@@ -94,7 +95,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>Medieninhaberin: S. Quaritsch, Großpetersdorf</p>
+                        
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Schließen</button>
@@ -103,7 +104,7 @@
             </div>
         </div>
         
-        <script src="js/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="js/jquery-3.6.4.min.js" integrity="sha384-UG8ao2jwOWB7/oDdObZc6ItJmwUkR/PfMyt9Qs5AwX7PsnYn1CRKCTWyncPTWvaS" crossorigin="anonymous"></script>
         <script src="js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
         
     </body>
